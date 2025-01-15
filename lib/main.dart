@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/halaman_utama.dart';
+import 'package:test_app/halaman_utama_v3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: SafeArea(
-        child: const HalamanUtama(),
+        child: const HalamanUtama_v3(),
       ),
     );
   }
